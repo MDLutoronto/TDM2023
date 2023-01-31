@@ -434,8 +434,8 @@ img.mfp-img {
 }
 a:focus,
 button:focus {
- outline:thin dotted #674ea0;
- outline:5px auto #674ea0;
+ outline:thin dotted #800e1f;
+ outline:5px auto #800e1f;
  outline-offset:-2px
 }
 * {
@@ -662,7 +662,7 @@ blockquote {
  padding-left:1em;
  padding-right:1em;
  font-style:italic;
- border-left:0.25em solid #674ea0
+ border-left:0.25em solid #800e1f
 }
 blockquote cite {
  font-style:italic
@@ -1003,7 +1003,7 @@ textarea[readonly] {
 }
 input:focus,
 textarea:focus {
- border-color:#674ea0;
+ border-color:#800e1f;
  outline:0;
  outline:thin dotted \9;
  box-shadow:inset 0 1px 3px rgba(34,40,49,0.06),0 0 5px rgba(0,146,202,0.7)
@@ -1171,11 +1171,11 @@ th {
  margin-left:-0.5em
 }
 .btn--primary {
- background-color:#674ea0;
+ background-color:#800e1f;
  color:#fff
 }
 .btn--primary:visited {
- background-color:#674ea0;
+ background-color:#800e1f;
  color:#fff
 }
 .btn--primary:hover {
@@ -1738,7 +1738,7 @@ th {
 .pagination li a.current,
 .pagination li a.current.disabled {
  color:#fff;
- background:#674ea0
+ background:#800e1f
 }
 .pagination li a.disabled {
  color:rgba(57,62,70,0.5);
@@ -1865,7 +1865,7 @@ th {
  left:0;
  bottom:0;
  height:4px;
- background:#674ea0;
+ background:#800e1f;
  width:100%;
  -webkit-transition:all 0.2s ease-in-out;
  transition:all 0.2s ease-in-out;
@@ -2092,7 +2092,7 @@ th {
 .toc .nav__title {
  color:#fff;
  font-size:.75em;
- background:#674ea0;
+ background:#800e1f;
  border-top-left-radius:4px;
  border-top-right-radius:4px
 }
@@ -2151,7 +2151,7 @@ th {
  animation:intro 0.3s both;
  -webkit-animation-delay:0.45s;
  animation-delay:0.45s;
- background-color:#674ea0
+ background-color:#800e1f
 }
 .page__footer::after {
  clear:both;
@@ -2226,7 +2226,7 @@ th {
  height:2rem;
  border:0;
  outline:none;
- color:#674ea0;
+ color:#800e1f;
  background-color:transparent;
  cursor:pointer;
  -webkit-transition:0.2s;
@@ -2320,12 +2320,12 @@ th {
  margin-bottom:2em
 }
 .archive__item-title .ais-Highlight {
- color:#674ea0;
+ color:#800e1f;
  font-style:normal;
  text-decoration:underline
 }
 .archive__item-excerpt .ais-Highlight {
- color:#674ea0;
+ color:#800e1f;
  font-style:normal;
  font-weight:bold
 }
@@ -2805,7 +2805,7 @@ body:hover .visually-hidden button {
  position:relative;
  width:1.5rem;
  height:.25rem;
- background:#674ea0;
+ background:#800e1f;
  margin:auto;
  -webkit-transition:0.3s;
  transition:0.3s
@@ -2817,7 +2817,7 @@ body:hover .visually-hidden button {
  left:0;
  width:1.5rem;
  height:.25rem;
- background:#674ea0;
+ background:#800e1f;
  -webkit-transition:0.3s;
  transition:0.3s
 }
