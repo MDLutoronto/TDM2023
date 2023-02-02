@@ -4,11 +4,7 @@
 .page__footer-follow .social-icons .svg-inline--fa {
  color:inherit
 }
-/*!
- * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
- * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
- * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
-*/.mfp-counter {
+.mfp-counter {
  font-family:Georgia,Times,serif
 }
 .mfp-bg {
@@ -498,12 +494,32 @@ audio:not([controls]) {
  display:none
 }
 a {
- color:blue
+ color: #545151;
 }
 a:hover,
 a:active {
- outline:0
+    color: #545151;
+    outline:0
 }
+a:visited {
+ color: #545151;
+}
+a:link {
+ color: #545151;
+}
+a.sessionspeaker {
+     color: #222831;
+}
+a:link.sessionspeaker, a:hover.sessionspeaker, a:visited.sessionspeaker {
+     color: #222831;
+}
+a.sessiontype {
+     color: black;
+}
+a:link.sessiontype, a:hover.sessiontype, a:visited.sessiontype {
+     color: black;
+}
+
 sub,
 sup {
  position:relative;
@@ -671,13 +687,7 @@ blockquote cite:before {
  content:"\2014";
  padding-right:5px
 }
-a:visited {
- color:#2626ff
-}
-a:hover {
- color:#0000bf;
- outline:0
-}
+
 tt,
 code,
 kbd,
