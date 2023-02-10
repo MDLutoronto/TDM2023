@@ -509,15 +509,19 @@ a:link {
 }
 a.sessionspeaker {
      color: #222831;
+     text-decoration: none;
 }
 a:link.sessionspeaker, a:hover.sessionspeaker, a:visited.sessionspeaker {
      color: #222831;
+     text-decoration: none;
 }
 a.sessiontype {
      color: black;
+     text-decoration: none;
 }
 a:link.sessiontype, a:hover.sessiontype, a:visited.sessiontype {
      color: black;
+     text-decoration: none;
 }
 
 sub,
