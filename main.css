@@ -1817,8 +1817,6 @@ th {
  display:-ms-flexbox;
  display:flex;
  -webkit-box-align:center;
- overflow-x: auto;
- -webkit-overflow-scrolling: touch;
  -ms-flex-align:center;
  align-items:center;
  min-height:2em;
@@ -2886,7 +2884,7 @@ body:hover .visually-hidden button {
 .greedy-nav__toggle:hover .navicon,
 .greedy-nav__toggle:hover .navicon:before,
 .greedy-nav__toggle:hover .navicon:after {
- background:#006e98
+ background:#800e1f
 }
 .greedy-nav__toggle:hover.close .navicon {
  background:transparent
