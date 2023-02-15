@@ -3524,9 +3524,6 @@ body {
  position:relative;
  z-index:10
 }
-.archive__item a[rel="permalink"] {
- position:static
-}
 .archive__subtitle {
  margin:1.414em 0 0.5em;
  padding-bottom:0.5em;
@@ -3543,14 +3540,6 @@ body {
  line-height:initial;
  overflow:hidden;
  text-overflow:ellipsis
-}
-.archive__item-title a[rel="permalink"]::before {
- content:'';
- position:absolute;
- left:0;
- top:0;
- right:0;
- bottom:0
 }
 .archive__item-title a+a {
  opacity:0.5
